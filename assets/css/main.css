@@ -55,12 +55,12 @@ input::-webkit-input-placeholder {
 
 }
 
+/*block registration*/
 .main-center {
     margin-top: 30px;
     margin: 0 auto;
     max-width: 330px;
     padding: 40px 40px;
-
 }
 
 .login-button {
@@ -72,9 +72,21 @@ input::-webkit-input-placeholder {
     text-align: center;
 }
 
+.gender {
+    padding: 0;
+}
+
+#gender option:first-child {
+    display: none;
+}
+
+/*block registration END*/
+
+/*block list of companies*/
 .name-list {
-    height: 300px;
+    height: 270px;
     overflow-y: auto;
+    padding: 0;
 }
 
 .name {
@@ -90,16 +102,38 @@ input::-webkit-input-placeholder {
     width: 100px;
 }
 
-.owl-carousel .owl-item {
-    height: 250px;
-    width: 300px;
-}
-
 .window {
     height: 300px;
     background: #fff;
     border: 1px solid gray;
     box-sizing: border-box;
     overflow: hidden;
+    margin-bottom: 30px;
+    padding: 0;
 }
+
+.companies-holder {
+    padding: 40px 0;
+}
+
+.header-window {
+    background: gray;
+    color: #fff;
+    padding: 5px 15px;
+}
+
+/*block list of companies END*/
+
+/*custom styles for owl carousel*/
+.owl-carousel .owl-item {
+    height: 250px;
+    width: 300px;
+}
+
+.owl-theme .owl-controls {
+    margin-top: -10px !important;
+}
+
+/*custom styles for owl carousel END*/
+
 

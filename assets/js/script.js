@@ -13,6 +13,7 @@
             complete: function (jqXHR, textStatus) {
                 if (textStatus == 'success') {
                     alert('success');
+                    window.location.href = "companies.html";
                 }
                 if (textStatus == 'error') {
                     alert('error');
@@ -28,12 +29,6 @@
         event.preventDefault();
         submitForm();
     });
-
-    //click #getData on page registration.html
-    $("#getData").click(function () {
-        window.location.href = "companies.html";
-    });
-
 
     $(document).ready(function () {
 
@@ -72,8 +67,6 @@
                 //initialize owl-carousel
                 $(".news-carousel").owlCarousel();
             });
-
-
         }
 
     });

@@ -26,7 +26,7 @@
       <file leaf-file-name="form-process.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/php/form-process.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="28" selection-start="122" selection-end="122" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="221">
+            <state line="9" column="2" selection-start="181" selection-end="181" vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="255">
               <folding />
             </state>
           </provider>
@@ -35,7 +35,7 @@
       <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="0" selection-start="1433" selection-end="1434" vertical-scroll-proportion="0.18760757" vertical-offset="707" max-vertical-offset="1564">
+            <state line="32" column="0" selection-start="901" selection-end="901" vertical-scroll-proportion="0.7607573" vertical-offset="102" max-vertical-offset="1445">
               <folding />
             </state>
           </provider>
@@ -44,7 +44,7 @@
       <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="102" column="21" selection-start="1570" selection-end="1570" vertical-scroll-proportion="0.0" vertical-offset="1289" max-vertical-offset="1887">
+            <state line="79" column="17" selection-start="1229" selection-end="1229" vertical-scroll-proportion="-10.384615" vertical-offset="1073" max-vertical-offset="2465">
               <folding />
             </state>
           </provider>
@@ -53,7 +53,7 @@
       <file leaf-file-name="registration.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/registration.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="46" selection-start="900" selection-end="900" vertical-scroll-proportion="47.73077" vertical-offset="1632" max-vertical-offset="2227">
+            <state line="109" column="0" selection-start="4803" selection-end="4803" vertical-scroll-proportion="-4.6153846" vertical-offset="1613" max-vertical-offset="2142">
               <folding />
             </state>
           </provider>
@@ -62,7 +62,7 @@
       <file leaf-file-name="companies.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/companies.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="51" selection-start="1218" selection-end="1218" vertical-scroll-proportion="-12.846154" vertical-offset="244" max-vertical-offset="884">
+            <state line="30" column="21" selection-start="1071" selection-end="1071" vertical-scroll-proportion="-2.9807692" vertical-offset="355" max-vertical-offset="1139">
               <folding />
             </state>
           </provider>
@@ -78,12 +78,12 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/assets/php/form-process.php" />
         <option value="$PROJECT_DIR$/assets/js/rty" />
-        <option value="$PROJECT_DIR$/registration.html" />
         <option value="$PROJECT_DIR$/company.html" />
         <option value="$PROJECT_DIR$/assets/css/main.css" />
         <option value="$PROJECT_DIR$/companies.html" />
+        <option value="$PROJECT_DIR$/assets/php/form-process.php" />
+        <option value="$PROJECT_DIR$/registration.html" />
         <option value="$PROJECT_DIR$/assets/js/script.js" />
       </list>
     </option>
@@ -246,7 +246,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1378" height="735" extended-state="1" />
+    <frame x="-7" y="0" width="1378" height="735" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -384,37 +384,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/php/form-process.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="28" selection-start="122" selection-end="122" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="221">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="102" column="21" selection-start="1570" selection-end="1570" vertical-scroll-proportion="0.0" vertical-offset="1289" max-vertical-offset="1887">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/registration.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="46" selection-start="900" selection-end="900" vertical-scroll-proportion="47.73077" vertical-offset="1632" max-vertical-offset="2227">
+        <state line="79" column="17" selection-start="1229" selection-end="1229" vertical-scroll-proportion="-10.384615" vertical-offset="1073" max-vertical-offset="2465">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/companies.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="51" selection-start="1218" selection-end="1218" vertical-scroll-proportion="-12.846154" vertical-offset="244" max-vertical-offset="884">
+        <state line="30" column="21" selection-start="1071" selection-end="1071" vertical-scroll-proportion="-2.9807692" vertical-offset="355" max-vertical-offset="1139">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/php/form-process.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="2" selection-start="181" selection-end="181" vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/registration.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="109" column="0" selection-start="4803" selection-end="4803" vertical-scroll-proportion="-4.6153846" vertical-offset="1613" max-vertical-offset="2142">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="0" selection-start="1433" selection-end="1434" vertical-scroll-proportion="0.18760757" vertical-offset="707" max-vertical-offset="1564">
+        <state line="32" column="0" selection-start="901" selection-end="901" vertical-scroll-proportion="0.7607573" vertical-offset="102" max-vertical-offset="1445">
           <folding />
         </state>
       </provider>

@@ -77,9 +77,9 @@
                 console.log(jsondata);
 
                 $.each(jsondata.list, function () {
-                    items.push('<div class="news">' + '<span>' + this.author +
-                        '</span>' + '<em>' + this.date + '</em>' + '<img class="img" src="'
-                        + this.img + '"/>' + '</div>');
+                    items.push('<div class="news">' + '<img class="img" src="'
+                        + this.img + '"/>' + '<p class="text">' + this.description + '<div class="publ-data"><b>Author:</b><br/>' + '<span>' + this.author +
+                        '</span><br/>' + '<b>Public: </b>' + '<em>' + this.date + '</em></div>' + '</p></div>');
                 });
 
                 $('<div/>', {
@@ -88,7 +88,16 @@
                 }).appendTo('#owl-carousel');
 
                 //initialize owl-carousel
-                $(".news-carousel").owlCarousel();
+                $(".news-carousel").owlCarousel({
+//                    autoPlay: 3000, //Set AutoPlay to 3 seconds
+                    items: 1,
+                    itemsCustom: false,
+                    itemsDesktop: [1199, 1],
+                    itemsDesktopSmall: [980, 1],
+                    itemsTablet: [768, 1],
+                    itemsTabletSmall: false,
+                    itemsMobile: [479, 1]
+                });
             });
         }
 

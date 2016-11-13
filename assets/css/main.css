@@ -106,6 +106,9 @@ input::-webkit-input-placeholder {
     display: inline-block;
     height: auto;
     width: 100px;
+    float: left;
+    margin: 0 15px 5px 0;
+    max-height: 150px;
 }
 
 .window {
@@ -150,16 +153,36 @@ input::-webkit-input-placeholder {
     font-size: 40px;
     text-align: center;
 }
+
+.news {
+    width: 100% !important;
+}
+
+.publ-data {
+    margin: 0;
+    font-size: 12px;
+    float: left;
+    clear: left;
+}
+
+.text {
+    float: right;
+    width: 70%;
+    margin: 0;
+    max-height: 200px;
+    overflow: hidden;
+}
 /*block list of companies END*/
 
 /*custom styles for owl carousel*/
 .owl-carousel .owl-item {
-    height: 250px;
-    width: 300px;
+    height: 225px;
+    padding: 5px 20px 0;
+    display: inline-block;
 }
 
 .owl-theme .owl-controls {
-    margin-top: -10px !important;
+    margin-top: 0 !important;
 }
 
 /*custom styles for owl carousel END*/

@@ -12,29 +12,14 @@
                 console.log(data);
             },
             error: function (data) {
-                console.log("ERROOOOOOOOOOOOOR");
+                console.log("ERROR");
                 console.log(data);
-//                $('.results').html(data); // show response from the php script
             }
 
         });
     }
 
-
-//    //submit #contactForm on page registration.html
-//    $("#contactForm").submit(function (event) {
-////        cancels the form submission
-//        event.preventDefault();
-//        submitForm();
-//    });
-
-
     $(document).ready(function () {
-
-        //initialize form validation
-//        $('#contactForm').validator({
-//            disable: true
-//        });
 
         $('#contactForm').validator().on('submit', function (e) {
             if (e.isDefaultPrevented()) {
@@ -51,9 +36,11 @@
         if (window.location.href.indexOf("companies.html") > -1) {
             $.getJSON('http://codeit.pro/frontTestTask/company/getList', function (jsondata) {
                 var items = [];
+                var strings = [];
                 console.log(jsondata);
 
                 $.each(jsondata.list, function () {
+                    strings.push(this.name);
                     items.push('<li class="name">' + this.name + '</li>');
                 });
 
@@ -61,6 +48,28 @@
                     'class': 'name-list',
                     html: items.join('')
                 }).appendTo('#companies');
+
+
+                function findUniqueElementsLenght(arr) {
+                    var result = [];
+
+                    nextInput:
+                        for (var i = 0; i < arr.length; i++) {
+                            var str = arr[i]; // для каждого элемента
+                            for (var j = 0; j < result.length; j++) { // ищем, был ли он уже?
+                                if (result[j] == str) continue nextInput; // если да, то следующий
+                            }
+                            result.push(str);
+                        }
+
+                    return result.length;
+                }
+
+                $('<span>', {
+                    'class': 'quantity-companies',
+                    html: findUniqueElementsLenght(strings)
+                }).appendTo('#all-companies');
+
             });
 
             $.getJSON('http://codeit.pro/frontTestTask/news/getList', function (jsondata) {
@@ -68,7 +77,6 @@
                 console.log(jsondata);
 
                 $.each(jsondata.list, function () {
-//                        console.log("author: " + this.author);
                     items.push('<div class="news">' + '<span>' + this.author +
                         '</span>' + '<em>' + this.date + '</em>' + '<img class="img" src="'
                         + this.img + '"/>' + '</div>');

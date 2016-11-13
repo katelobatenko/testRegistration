@@ -128,6 +128,28 @@ input::-webkit-input-placeholder {
     padding: 5px 15px;
 }
 
+.circle {
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    border: 1px solid #000;
+    position: relative;
+    top: 15px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.quantity-companies {
+    position: absolute;
+    top: 90px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    display: inline-block;
+    font-size: 40px;
+    text-align: center;
+}
 /*block list of companies END*/
 
 /*custom styles for owl carousel*/

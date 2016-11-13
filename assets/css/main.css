@@ -29,7 +29,7 @@ hr {
 }
 
 .form-group {
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 label {
@@ -74,10 +74,16 @@ input::-webkit-input-placeholder {
 
 .gender {
     padding: 0;
+    margin-top: 10px;
 }
 
 #gender option:first-child {
     display: none;
+}
+
+.help-block {
+    position: absolute;
+    top: 30px;
 }
 
 /*block registration END*/

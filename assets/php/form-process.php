@@ -6,5 +6,5 @@ $email = $_POST["email"];
 $password = $_POST["pass"];
 $gender = $_POST["gender"];
 
-echo "Success data sending";
+echo "Data sending success";
 ?>

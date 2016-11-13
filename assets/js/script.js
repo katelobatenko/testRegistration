@@ -8,29 +8,44 @@
             url: "assets/php/form-process.php",
             data: $(this).serialize(),
             success: function (data) {
-                $('.results').html(data); // show response from the php script
+                window.location.href = "companies.html";
+                console.log(data);
             },
-            complete: function (jqXHR, textStatus) {
-                if (textStatus == 'success') {
-                    alert('success');
-                    window.location.href = "companies.html";
-                }
-                if (textStatus == 'error') {
-                    alert('error');
-                }
+            error: function (data) {
+                console.log("ERROOOOOOOOOOOOOR");
+                console.log(data);
+//                $('.results').html(data); // show response from the php script
             }
 
         });
     }
 
-    //submit #contactForm on page registration.html
-    $("#contactForm").submit(function (event) {
-        // cancels the form submission
-        event.preventDefault();
-        submitForm();
-    });
+
+//    //submit #contactForm on page registration.html
+//    $("#contactForm").submit(function (event) {
+////        cancels the form submission
+//        event.preventDefault();
+//        submitForm();
+//    });
+
 
     $(document).ready(function () {
+
+        //initialize form validation
+//        $('#contactForm').validator({
+//            disable: true
+//        });
+
+        $('#contactForm').validator().on('submit', function (e) {
+            if (e.isDefaultPrevented()) {
+                // handle the invalid form...
+                console.log("some error");
+            } else {
+                alert("success");
+                submitForm(); // everything looks good!
+            }
+        });
+
 
         // get data from server
         if (window.location.href.indexOf("companies.html") > -1) {
